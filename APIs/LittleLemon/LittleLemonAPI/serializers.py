@@ -17,10 +17,11 @@ class MenuItemSerializer(serializers.ModelSerializer):
     stock = serializers.IntegerField(source="inventory")
     # Add field based on class method
     price_after_tax = serializers.SerializerMethodField(method_name="calculate_tax")
-    category = CategorySerializer()
+    category = CategorySerializer(read_only=True)
+    category_id = serializers.IntegerField(write_only=True)
     class Meta:
         model = models.MenuItem
-        fields = ["id", "title", "price", "stock", "price_after_tax", "category"]
+        fields = ["id", "title", "price", "stock", "price_after_tax", "category", "category_id"]
     
     def calculate_tax(self, product:models.MenuItem):
         return product.price * Decimal(1.1)
