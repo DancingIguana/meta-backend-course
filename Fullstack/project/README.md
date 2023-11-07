@@ -12,4 +12,22 @@ After setting up the database, this part creates an API that is capable of makin
 Once the API for booking is done, now the web app is improved for selecting booking times, and visualizing the already reserved hours/dates.
 
 
-## Examples
+## App screenshots
+
+Home page
+[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/home_page.png)
+
+
+Original reservation form
+[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/reservation_original.png)
+
+
+Final reservation form
+[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/reservation.png)
+
+
+Visualizing all reservations in JSON
+[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/visualize_reservations.png)
+
+API GET Method for bookings
+[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/booking_api_get.png)
