@@ -15,19 +15,19 @@ Once the API for booking is done, now the web app is improved for selecting book
 ## App screenshots
 
 Home page
-[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/home_page.png)
+![home_page](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/home_page.png)
 
 
 Original reservation form
-[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/reservation_original.png)
+![original_reservation_form](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/reservation_original.png)
 
 
 Final reservation form
-[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/reservation.png)
+![final_reservation_form](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/reservation.png)
 
 
 Visualizing all reservations in JSON
-[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/visualize_reservations.png)
+![json_visualizer](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/visualize_reservations.png)
 
 API GET Method for bookings
-[!alt text](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/booking_api_get.png)
+![get_bookings](https://github.com/DancingIguana/meta-backend-course/blob/main/Fullstack/project/pictures/booking_api_get.png)
