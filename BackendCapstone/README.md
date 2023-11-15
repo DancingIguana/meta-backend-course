@@ -18,6 +18,23 @@ Install the dependencies
 pip install requirements.txt
 ```
 
+Configure your database with your data under `littlelemon/settings.py/`:
+```py
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "LittleLemon",
+        "USER": "root",
+        "PASSWORD": "root",
+        "HOST": "127.0.0.1",
+        "PORT": "3306",
+        "OPTIONS": {
+            "init_command": "SET sql_mode='STRICT_TRANS_TABLES'"
+        }
+    }
+}
+```
+
 Run the necessary migrations:
 
 Go to the `/littlelemon/` directory in the terminal and run the migrations for the database:
