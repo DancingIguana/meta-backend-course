@@ -87,3 +87,27 @@ Here are the following API endpoints:
 | `/auth/users/{username}` | Authenticated user | `PUT`, `PATCH`, `DELETE` | Update or delete a registered user. |
 
 
+## Screenshots
+
+Main site:
+![home_page](https://github.com/DancingIguana/meta-backend-course/blob/main/BackendCapstone/imgs/main_site.png)
+
+Menu API:
+
+![home_page](https://github.com/DancingIguana/meta-backend-course/blob/main/BackendCapstone/imgs/menu.png)
+
+Single Menu Item API:
+
+![menu_item](https://github.com/DancingIguana/meta-backend-course/blob/main/BackendCapstone/imgs/menu_item.png)
+
+User API:
+
+![users](https://github.com/DancingIguana/meta-backend-course/blob/main/BackendCapstone/imgs/users.png)
+
+Single User API:
+
+![single_user](https://github.com/DancingIguana/meta-backend-course/blob/main/BackendCapstone/imgs/edit_user.png)
+
+Authentication token generation
+
+![token_generation](https://github.com/DancingIguana/meta-backend-course/blob/main/BackendCapstone/imgs/token_generation.png)
