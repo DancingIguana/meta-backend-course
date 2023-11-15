@@ -55,8 +55,8 @@ python3 manage.py runserver
 ```
 Visit your localhost in the browser:
 
-Main app: [http://127.0.0.1:8000/restaurant](http://127.0.0.1:8000/restaurant) 
-Django admin (with superuser data): [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) 
+- Main app: [http://127.0.0.1:8000/restaurant](http://127.0.0.1:8000/restaurant) 
+- Django admin (with superuser data): [http://127.0.0.1:8000/admin](http://127.0.0.1:8000/admin) 
 
 ## API Endpoints
 Here are the following API endpoints:
