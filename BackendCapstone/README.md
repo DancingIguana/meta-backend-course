@@ -77,4 +77,13 @@ Here are the following API endpoints:
 | `restaurant/booking/tables/` | Authenticated user | `POST` | Posts a booking.  |
 | `/restaurant/booking/tables/{tableId}` | Authenticated user | `PUT`, `PATCH`, `DELETE` | Update or delete a specific booking. |
 
+### User authentication
+| Endpoint                                   | Role           | Method   | Description                                                              |
+|--------------------------------------------|----------------|----------|--------------------------------------------------------------------------|
+| `/restaurant/api-token-auth` | Anyone | `POST`    | Given an 'username' and 'password' of an existing user, generate the corresponding Authentication Token.    |
+| `/auth/users/` | Authenticated user | `GET`   | Lists all the registered users in the application. |
+| `/auth/users/{username}` | Authenticated user | `GET` | Displays the data of a particular user.  |
+| `/auth/users/` | Authenticated user | `POST` | Create a new user. |
+| `/auth/users/{username}` | Authenticated user | `PUT`, `PATCH`, `DELETE` | Update or delete a registered user. |
+
 
